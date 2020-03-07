@@ -34,6 +34,7 @@
             android:layout_weight="1"/>
 
         <com.ebanx.swipebtn.SwipeButton
+            android:id="@+id/swipe_as_trainer_ID"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             app:button_background="@drawable/swipe_button_background"
@@ -54,6 +55,7 @@
             android:layout_weight="0.2"/>
 
         <com.ebanx.swipebtn.SwipeButton
+            android:id="@+id/swipe_as_client_ID"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             app:button_background="@drawable/swipe_button_background"
