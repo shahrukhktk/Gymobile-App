@@ -27,7 +27,13 @@ public class Trainer_SignUp extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_trainer__sign_up);
 
-        
+        trainerName = (EditText) findViewById(R.id.register_trainer_fullname_txtID);
+        trainerEmail = (EditText) findViewById(R.id.register_trainer_email_txtID);
+        trainerPassword = (EditText) findViewById(R.id.register_trainer_pswrd_txtID);
+        trainerConfirmPswrd = (EditText) findViewById(R.id.register_trainer_confirm_password_txtID);
+        registerAccountBtn = (Button) findViewById(R.id.trainer_register_btnID);
+        alreadyMemberBtn = (TextView) findViewById(R.id.already_member_btnID);
+
 
     }
 }
