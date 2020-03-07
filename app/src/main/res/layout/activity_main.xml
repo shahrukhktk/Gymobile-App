@@ -18,6 +18,7 @@
         android:layout_gravity="center" />
 
     <ProgressBar
+        android:id="@+id/splash_progress_ID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@android:color/white"
