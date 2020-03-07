@@ -2,6 +2,7 @@ package com.devigntech.gymobile.TrainerAppFiles.Trainer_Authentication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
@@ -15,7 +16,7 @@ public class Trainer_Login extends AppCompatActivity
 {
     private EditText trainerEmail, trainerPassword;
     private Button loginTrainerBtn;
-    private TextView register_accountBtn;
+    private TextView register_accountBtn, forgotPassword_Btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -30,6 +31,7 @@ public class Trainer_Login extends AppCompatActivity
 
         trainerEmail = (EditText) findViewById(R.id.login_trainer_email_txtID);
         trainerPassword = (EditText) findViewById(R.id.login_trainer_pswrd_txtID);
+        forgotPassword_Btn = (TextView) findViewById(R.id.forgetPassword_BtnID);
         loginTrainerBtn = (Button) findViewById(R.id.trainer_login_btnID);
         register_accountBtn = (TextView) findViewById(R.id.create_new_account_btnID);
 
@@ -47,7 +49,16 @@ public class Trainer_Login extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
+                startActivity(new Intent(getApplicationContext(), Trainer_SignUp.class));
+            }
+        });
 
+        forgotPassword_Btn.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                startActivity(new Intent(getApplicationContext(), TrainerForgotPassword.class));
             }
         });
 
