@@ -6,7 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TrainerAppFiles.Trainer_Authentication.Trainer_SignUp">
+    tools:context=".TrainerAppFiles.Trainer_Authentication.Trainer_Login">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -21,7 +21,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Trainer Sign Up"
+                android:text="Trainer Login"
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:layout_margin="20dp"
@@ -38,24 +38,13 @@
                 android:layout_margin="20dp"/>
 
             <EditText
-                android:id="@+id/register_trainer_fullname_txtID"
+                android:id="@+id/login_trainer_email_txtID"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:layout_marginBottom="15dp"
-                android:layout_marginTop="30dp"
-                android:hint="Fullname"
-                android:padding="10dp"
-                android:drawableStart="@drawable/ic_fullname"
-                android:drawableLeft="@drawable/ic_fullname"
-                android:drawablePadding="10dp" />
-
-            <EditText
-                android:id="@+id/register_trainer_email_txtID"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="15dp"
                 android:hint="Email"
                 android:padding="10dp"
                 android:drawableStart="@drawable/ic_email"
@@ -63,7 +52,7 @@
                 android:drawablePadding="10dp" />
 
             <EditText
-                android:id="@+id/register_trainer_pswrd_txtID"
+                android:id="@+id/login_trainer_pswrd_txtID"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="15dp"
@@ -73,33 +62,25 @@
                 android:drawableLeft="@drawable/ic_password"
                 android:drawablePadding="10dp" />
 
-            <EditText
-                android:id="@+id/register_trainer_confirm_password_txtID"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="15dp"
-                android:hint="Confirm Password"
-                android:padding="10dp"
-                android:drawableStart="@drawable/ic_password"
-                android:drawableLeft="@drawable/ic_password"
-                android:drawablePadding="10dp" />
-
             <Button
-                android:id="@+id/trainer_register_btnID"
+                android:id="@+id/trainer_login_btnID"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:background="@drawable/swipe_button_background"
-                android:layout_margin="15dp"
-                android:text="REGISTER"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="LOGIN"
                 android:textColor="@android:color/white"
                 android:textSize="18sp"/>
 
             <TextView
-                android:id="@+id/already_member_btnID"
+                android:id="@+id/create_new_account_btnID"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:background="@android:color/transparent"
-                android:text="Already have an account"
+                android:text="Register your account"
                 android:textColor="@android:color/black"
                 android:layout_gravity="center"
                 android:gravity="center"
