@@ -6,10 +6,12 @@ import android.os.Bundle;
 
 import com.devigntech.gymobile.R;
 
-public class TrainerForgotPassword extends AppCompatActivity {
+public class TrainerForgotPassword extends AppCompatActivity
+{
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_trainer_forgot_password);
     }

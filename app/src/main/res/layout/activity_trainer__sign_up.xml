@@ -99,7 +99,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:background="@android:color/transparent"
-                android:text="Already have an account"
+                android:text="already have an account"
                 android:textColor="@android:color/black"
                 android:layout_gravity="center"
                 android:gravity="center"
