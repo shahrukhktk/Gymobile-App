@@ -2,7 +2,9 @@ package com.devigntech.gymobile.TrainerAppFiles.Trainer_Authentication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
@@ -34,6 +36,23 @@ public class Trainer_SignUp extends AppCompatActivity
         registerAccountBtn = (Button) findViewById(R.id.trainer_register_btnID);
         alreadyMemberBtn = (TextView) findViewById(R.id.already_member_btnID);
 
+        registerAccountBtn.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+
+            }
+        });
+
+        alreadyMemberBtn.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                startActivity(new Intent(getApplicationContext(), Trainer_Login.class));
+            }
+        });
 
     }
 }
