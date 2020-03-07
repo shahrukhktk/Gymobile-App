@@ -49,7 +49,8 @@
                 android:padding="10dp"
                 android:drawableStart="@drawable/ic_fullname"
                 android:drawableLeft="@drawable/ic_fullname"
-                android:drawablePadding="10dp" />
+                android:drawablePadding="10dp"
+                android:inputType="textPersonName"/>
 
             <EditText
                 android:id="@+id/register_trainer_email_txtID"
@@ -60,7 +61,8 @@
                 android:padding="10dp"
                 android:drawableStart="@drawable/ic_email"
                 android:drawableLeft="@drawable/ic_email"
-                android:drawablePadding="10dp" />
+                android:drawablePadding="10dp"
+                android:inputType="textEmailAddress"/>
 
             <EditText
                 android:id="@+id/register_trainer_pswrd_txtID"
@@ -71,7 +73,8 @@
                 android:padding="10dp"
                 android:drawableStart="@drawable/ic_password"
                 android:drawableLeft="@drawable/ic_password"
-                android:drawablePadding="10dp" />
+                android:drawablePadding="10dp"
+                android:inputType="textPassword"/>
 
             <EditText
                 android:id="@+id/register_trainer_confirm_password_txtID"
@@ -82,7 +85,8 @@
                 android:padding="10dp"
                 android:drawableStart="@drawable/ic_password"
                 android:drawableLeft="@drawable/ic_password"
-                android:drawablePadding="10dp" />
+                android:drawablePadding="10dp"
+                android:inputType="textPassword"/>
 
             <Button
                 android:id="@+id/trainer_register_btnID"
