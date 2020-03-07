@@ -21,7 +21,7 @@ public class SplashScreen extends AppCompatActivity
                 WindowManager.LayoutParams.FLAG_FULLSCREEN
         );
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_splash);
         progressBar = (ProgressBar) findViewById(R.id.splash_progress_ID);
 
         new Handler().postDelayed(new Runnable() {

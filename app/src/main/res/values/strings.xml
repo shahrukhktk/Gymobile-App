@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Gymobile</string>
+    <string name="signup_trainer">TRAINER</string>
+    <string name="signup_client">CLIENT</string>
 </resources>
